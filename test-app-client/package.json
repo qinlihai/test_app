@@ -1,0 +1,45 @@
+{
+  "name": "shyftlabs_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server .",
+    "build": "webpack ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qinlihai/shyftlabs_test.git"
+  },
+  "keywords": [],
+  "author": "Lihai Qin",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/qinlihai/issues"
+  },
+  "homepage": "https://github.com/qinlihai/#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/material": "^5.12.0",
+    "@mui/x-data-grid": "^6.2.0",
+    "@mui/x-date-pickers": "^6.1.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-hook-form": "^7.43.9",
+    "react-router-dom": "^6.10.0"
+  }
+}
